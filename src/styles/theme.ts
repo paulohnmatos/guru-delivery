@@ -1,10 +1,24 @@
-const theme = {
-  colors: {
-    background: "#e1e1e6",
-    text: "#121214",
-    primary: "#4588BB",
-    secondary: "#9EADBD",
+import { createMuiTheme } from "@material-ui/core/styles";
+
+const theme = createMuiTheme({
+  palette: {
+    type: "light",
   },
-};
+  typography: {
+    fontFamily: [
+      "-apple-system",
+      "BlinkMacSystemFont",
+      '"Segoe UI"',
+      "Roboto",
+      '"Helvetica Neue"',
+      "Arial",
+      "sans-serif",
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(","),
+    fontSize: 16,
+  },
+});
 
 export default theme;

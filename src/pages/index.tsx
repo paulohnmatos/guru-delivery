@@ -4,7 +4,7 @@ const Home: React.FC = () => {
   return (
     <div>
       <Head>
-        <title>404 Não encontrado</title>
+        <title>Guru Delivery - A melhor solução de delivery do mundo</title>
       </Head>
       <h1>Olá Mundo</h1>
     </div>
